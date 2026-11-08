@@ -1,4 +1,4 @@
-import { asset, CATALOG, COLORS, stemCount } from './catalog.js';
+import { asset, CATALOG, COLORS, stemCount } from './catalog.js?v=20261108-public';
 export function imageTag(path, alt = '', className = '', attrs = '') {
   return `<img src="${asset(path)}" alt="${alt}" class="${className}" draggable="false" decoding="async" ${attrs}>`;
 }

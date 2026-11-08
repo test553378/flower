@@ -1,7 +1,7 @@
-import { CATALOG, PAPERS, RIBBONS } from '../catalog.js';
-import { initialStock, available, consumeStock, totalStock, priceOf } from './inventory.js';
-import { generateOrder } from './orders.js';
-import { validateBouquet, makeHint } from './validation.js';
+import { CATALOG, PAPERS, RIBBONS } from '../catalog.js?v=20261108-public';
+import { initialStock, available, consumeStock, totalStock, priceOf } from './inventory.js?v=20261108-public';
+import { generateOrder } from './orders.js?v=20261108-public';
+import { validateBouquet, makeHint } from './validation.js?v=20261108-public';
 export function createState() {
   return { screen: 'title', stage: 1, stock: initialStock(1), order: null, selected: [], paper: null, ribbon: null, customerIndex: 0, mistakes: 0, hint: null, collection: [], receipt: null, notice: '' };
 }

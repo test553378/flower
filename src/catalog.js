@@ -1,4 +1,4 @@
-export const ASSET_ROOT = './assets/ohanayasan/';
+export const ASSET_ROOT = './public/assets/ohanayasan/';
 export const asset = path => ASSET_ROOT + path;
 const names = { tulip: 'チューリップ', rose: 'バラ', sunflower: 'ひまわり', gerbera: 'ガーベラ', cosmos: 'コスモス', marguerite: 'マーガレット', carnation: 'カーネーション' };
 export const COLORS = {

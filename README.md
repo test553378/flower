@@ -4,19 +4,19 @@
 
 全5ステージで注文どおりに花を販売し、75本を売り切ると自由制作が開きます。既存のアニメ調イラストを使用し、花束は選んだ1本ごとのPNG・包装紙・リボンを重ねて描画します。制限時間や失敗終了はありません。BGM・効果音・日本語読み上げに対応します。
 
-ゲームの公開先：**https://ohanayasan-flower.brownbowl21.chatgpt.site**。iPadのSafariで開き、横向きにして「はじめる」をタップしてください。インストールは不要です。GitHubのファイル表示画面ではゲームは動きません。
+ゲームの公開先：**https://test553378.github.io/flower/**。Sites版：**https://ohanayasan-flower.brownbowl21.chatgpt.site**。iPadのSafariで開き、横向きにして「はじめる」をタップしてください。インストールは不要です。GitHubのファイル表示画面ではゲームは動きません。
 
-ユーザーから公開まで自動実行する指示を受け、Sitesの静的ホスティングを使用します。GitHub接続ツールではPagesの管理操作を実行できないためです。GitHub Pagesに移す場合も、下記の設定で同じ静的ビルドを配信できます。
+当初はSitesで公開しました。その後、GitHub Pagesのブランチ配信も有効になっています。画像はどちらの配信方法でも`public/assets/ohanayasan/`を参照し、ビルド出力でも`public/`フォルダを維持します。
 
 ## iPadで起動する（GitHub Pages）
 
-1. 実装PRを確認し、`main`にマージします。
-2. GitHubのリポジトリで **Settings → Pages → Build and deployment → Source → GitHub Actions** を選びます。
+1. 現在の公開URLは上記です。ブランチ配信を使う場合は **Settings → Pages → Source: Deploy from a branch → main → / (root)** を選びます。リポジトリ直下の`.nojekyll`と`public/`を維持してください。
+2. ビルド済みファイルを配信する方式に切り替える場合は **Settings → Pages → Build and deployment → Source → GitHub Actions** を選びます。
 3. **Actions → Publish game to GitHub Pages → Run workflow** を開き、ブランチを **main** にして実行します。自動チェックに合格したものだけが配信されます。
-4. 完了後、Actionsの`github-pages`環境に表示されるURLをiPadのSafariで開きます。予定URLは **https://test553378.github.io/flower/** です（有効化前の動作は保証しません）。
+4. 完了後、Actionsの`github-pages`環境に表示されるURLをiPadのSafariで開きます。URLは **https://test553378.github.io/flower/** です。
 5. iPadを横向きにし、「はじめる」をタップします。最初のタップをきっかけに音が再生されます。端末の音量・消音状態も確認してください。
 
-公開PagesサイトはURLを知る人が利用できます。今回追加する公開ワークフローは手動実行のみで、PR作成や通常のpushでは公開しません。公開権限・Pagesの利用可否はGitHubアカウント側の設定によります。
+公開PagesサイトはURLを知る人が利用できます。ブランチ配信では`main`の更新後に自動で再公開されます。追加のActions公開ワークフローは手動実行用です。公開権限・Pagesの利用可否はGitHubアカウント側の設定によります。
 
 ## 公開前にパソコンとiPadで試す
 

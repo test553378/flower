@@ -1,5 +1,5 @@
-import { CATALOG, stemCount } from '../catalog.js';
-import { totalStock } from './inventory.js';
+import { CATALOG, stemCount } from '../catalog.js?v=20261108-public';
+import { totalStock } from './inventory.js?v=20261108-public';
 export const orderKey = order => Object.entries(order).filter(([, n]) => n > 0).sort(([a], [b]) => a.localeCompare(b)).map(([id, n]) => `${id}:${n}`).join('|');
 // Enumerate the small feasible space: stock bounds and duplicate avoidance are exact.
 export function feasibleOrders(stock) {

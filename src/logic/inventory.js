@@ -1,4 +1,4 @@
-import { CATALOG, STAGES } from '../catalog.js';
+import { CATALOG, STAGES } from '../catalog.js?v=20261108-public';
 export const totalStock = stock => Object.values(stock).reduce((sum, n) => sum + n, 0);
 export const initialStock = stage => ({ ...STAGES[stage - 1] });
 export const countFlowers = stems => stems.reduce((counts, id) => ({ ...counts, [id]: (counts[id] || 0) + 1 }), {});

@@ -1,10 +1,10 @@
-import { CATALOG, COLORS, PAPERS, RIBBONS, CUSTOMERS, STAGES, stemCount } from './catalog.js';
-import { totalStock, available, countFlowers } from './logic/inventory.js';
-import { orderText } from './logic/orders.js';
-import { createState, startStage, selectFlower, undo, wrap, submit, finishCheckout, nextStage, saveCreation } from './logic/state.js';
-import { imageTag as img, bouquetMarkup } from './bouquet.js';
-import { GameAudio } from './audio.js';
-import { makeHint } from './logic/validation.js';
+import { CATALOG, COLORS, PAPERS, RIBBONS, CUSTOMERS, STAGES, stemCount } from './catalog.js?v=20261108-public';
+import { totalStock, available, countFlowers } from './logic/inventory.js?v=20261108-public';
+import { orderText } from './logic/orders.js?v=20261108-public';
+import { createState, startStage, selectFlower, undo, wrap, submit, finishCheckout, nextStage, saveCreation } from './logic/state.js?v=20261108-public';
+import { imageTag as img, bouquetMarkup } from './bouquet.js?v=20261108-public';
+import { GameAudio } from './audio.js?v=20261108-public';
+import { makeHint } from './logic/validation.js?v=20261108-public';
 
 const button = (action, text, className = '', attrs = '') => `<button type="button" data-action="${action}" class="${className}" ${attrs}>${text}</button>`;
 const icon = name => img(`ui/${name}.png`, '', 'button-icon');

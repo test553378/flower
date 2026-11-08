@@ -20,7 +20,15 @@
 
 実行環境：Linux、Node.js 24.22.1。開発依存：happy-dom 21.0.4。ブラウザーと音声APIは実装せず、DOM環境と音声APIモックで検証しています。
 
-`npm run check`：**成功**。PNG検証61点、テスト20件成功・失敗0件、静的ビルド成功。加えて`node --check`によるJavaScriptの構文確認を実施しました。
+`npm run check`：**成功**。PNG検証61点、テスト22件成功・失敗0件、静的ビルド成功。加えて`node --check`によるJavaScriptの構文確認を実施しました。
+
+### GitHub Pagesの画像パス修正
+
+ユーザーの利用URLは`https://test553378.github.io/flower/`でした。GitHub Pagesのブランチ配信ではリポジトリの`public/`が残る一方、初回のビルドでは`public/`を展開していました。ゲームが参照した`/flower/assets/ohanayasan/…`は404、実ファイルの`/flower/public/assets/ohanayasan/…`は200で、これが画像未表示の原因です。
+
+HTMLの先読み・アイコン、CSS背景、catalogの画像URL、素材台帳取得・先読みをすべて`public/assets/ohanayasan/`へ統一しました。ビルドでも`public/`を維持し、開発サーバーのパス変換を廃止しました。リポジトリ直下に`.nojekyll`も追加しています。GitHub Pagesが配信ファイルを10分キャッシュするため、CSSとJavaScriptの参照には今回の修正版を示すクエリを付け、旧パスを持つキャッシュが再利用されないようにしました。
+
+回帰テスト2件を追加し、`/flower/`配下でリポジトリを直接配信する場合と、静的ビルドを配信する場合の両方で、全61 PNG・素材台帳・HTMLの画像参照・CSS背景が実在することと元の画像ハッシュを確認します。素材先読みがcatalogと同じURL関数を使うことも検証します。
 
 公開結果：Sitesの本番デプロイは**succeeded**、バージョン1。URL：**https://ohanayasan-flower.brownbowl21.chatgpt.site**。公開後、認証情報を明示しないHTTP取得でHTML・JavaScript・CSS・台帳・PNGの**73 URL**を取得でき、PNG **61/61点**のSHA-256が元の台帳に一致しました。これはHTTP取得の確認であり、Safariでの描画・タッチの確認ではありません。
 

@@ -1,5 +1,5 @@
-import { countFlowers } from './inventory.js';
-import { CATALOG, stemCount } from '../catalog.js';
+import { countFlowers } from './inventory.js?v=20261108-public';
+import { CATALOG, stemCount } from '../catalog.js?v=20261108-public';
 export function differences(order, selected) {
   const counts = countFlowers(selected);
   return [...new Set([...Object.keys(order), ...Object.keys(counts)])].map(id => ({ id, needed: order[id] || 0, selected: counts[id] || 0, delta: (order[id] || 0) - (counts[id] || 0) })).filter(item => item.delta !== 0);

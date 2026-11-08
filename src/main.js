@@ -1,9 +1,10 @@
-import { createApp } from './app.js';
+import { createApp } from './app.js?v=20261108-public';
+import { asset } from './catalog.js?v=20261108-public';
 const app = createApp(document.getElementById('app'));
 app.render();
 // Also warm background/alternate-expression assets and report CSS-background failures.
 // A failed image never disables the rest of the game or substitutes another illustration.
-fetch('./assets/ohanayasan/asset_manifest.json').then(response => {
+fetch(asset('asset_manifest.json')).then(response => {
   if (!response.ok) throw new Error('manifest');
   return response.json();
 }).then(async manifest => {
@@ -15,7 +16,7 @@ fetch('./assets/ohanayasan/asset_manifest.json').then(response => {
         const image = new Image();
         image.onload = resolve;
         image.onerror = () => { app.reportAssetFailure(entry.path); resolve(); };
-        image.src = './assets/ohanayasan/' + entry.path;
+        image.src = asset(entry.path);
       });
     }
   }
