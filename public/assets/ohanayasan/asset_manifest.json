@@ -1,0 +1,707 @@
+{
+  "package_name": "ohanayasan_assets",
+  "package_version": "1.1",
+  "created_date": "2026-11-08",
+  "target": "iPad 9th gen Safari landscape",
+  "design_style": "Original colorful pastel anime fantasy flower shop; avoid duplicating specific existing characters",
+  "assets": [
+    {
+      "path": "characters/player/fullbody_welcome.png",
+      "category": "player",
+      "description_ja": "店員の女の子。全身の高解像度立ち絵。花束を持っているため、花束制作UIに重ねる際は注意",
+      "width": 823,
+      "height": 1529,
+      "has_alpha": true,
+      "sha256": "3ee6118f3bfd926af9ae6ff319e113a2782c85ee27c20146b8e063c88f1f13d2"
+    },
+    {
+      "path": "characters/player/smile.png",
+      "category": "player_emotion",
+      "description_ja": "店員：smileの上半身",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "96f4f67cb0a3cef75431d0fa2d2c072ad8ac0424cc6558c3b52d43eeb196430e"
+    },
+    {
+      "path": "characters/player/happy.png",
+      "category": "player_emotion",
+      "description_ja": "店員：happyの上半身",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "6211f511daef9ff59b5d381d73b6017b5689afe46af9c7f0514f91f6a2a04109"
+    },
+    {
+      "path": "characters/player/trouble.png",
+      "category": "player_emotion",
+      "description_ja": "店員：troubleの上半身",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "3239bef32bb8a50be6dd6fccf9f87feb1b4ef787d253899542e2cdb305d89a2f"
+    },
+    {
+      "path": "characters/customers/girl_orange_smile.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_orange：smile",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "bb9a4ef43708828e4ebd1a783c988636ba81d00fac72e563bc5870f35a004297"
+    },
+    {
+      "path": "characters/customers/girl_orange_happy.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_orange：happy",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "b955734fb552846fc464980c5602a83a5da00d945555db2ad54c427aa8a69b44"
+    },
+    {
+      "path": "characters/customers/girl_orange_trouble.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_orange：trouble",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "50826e7a66aa4463b5041333b8db1353b94c5f5767e2f0bd35550de51aaf73a9"
+    },
+    {
+      "path": "characters/customers/girl_blue_smile.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_blue：smile",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "db941f31b79f48d4553f2823f136ca7ddccfdc06b9981a404deaefd3efc8a2af"
+    },
+    {
+      "path": "characters/customers/girl_blue_happy.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_blue：happy",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "f7034c236ec66c9610021913033ce0af39996ae97a983bf43dea1a3cafcf2ad3"
+    },
+    {
+      "path": "characters/customers/girl_blue_trouble.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん girl_blue：trouble",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "f627c1064f22bdb9d86d83c5ffac99cf8398062432e04bea423ccada6cb5c828"
+    },
+    {
+      "path": "characters/customers/boy_green_smile.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_green：smile",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "7fa06d43d4dea053122a40e6748ffa03e98437db34f581738b5e92f543139b75"
+    },
+    {
+      "path": "characters/customers/boy_green_happy.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_green：happy",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "ed29c5a90766300f2c73885aafcc90017b8d2e1f2e66d29bcd2daac71c506916"
+    },
+    {
+      "path": "characters/customers/boy_green_trouble.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_green：trouble",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "2dcb3259b342913794ade8ed69c68c6940b0f0752b159902851e515ce02ab2fa"
+    },
+    {
+      "path": "characters/customers/boy_glasses_smile.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_glasses：smile",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "827e8231b6bac50aa867bf0662a7c3cedd31c81f2f6d1bd46e6f5d522ed16ace"
+    },
+    {
+      "path": "characters/customers/boy_glasses_happy.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_glasses：happy",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "3e4fe8f216974da68a15960f8d49cb00c8fa2c42492a0a4403745f9d3a0d9415"
+    },
+    {
+      "path": "characters/customers/boy_glasses_trouble.png",
+      "category": "customer_emotion",
+      "description_ja": "お客さん boy_glasses：trouble",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "sha256": "11abb870d80bf3ed7631f2d3dc308cdcd50e0fbefe328430e9951587df451cd3"
+    },
+    {
+      "path": "flowers/tulip_red.png",
+      "category": "flower",
+      "description_ja": "tulip / red 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "tulip",
+      "color": "red",
+      "sha256": "b03a12b33514be66c40bf6f3a8897ba8389fdc5b90e3b067547fa92722ec6696"
+    },
+    {
+      "path": "flowers/tulip_yellow.png",
+      "category": "flower",
+      "description_ja": "tulip / yellow 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "tulip",
+      "color": "yellow",
+      "sha256": "7ee448cb901f139c5ec7de057feb01068dd4cafb9b18ed31e3256f48271047c7"
+    },
+    {
+      "path": "flowers/rose_pink.png",
+      "category": "flower",
+      "description_ja": "rose / pink 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "rose",
+      "color": "pink",
+      "sha256": "5d5f01df1a543ec73d3880e03e48a53f85ac7e717b207cf3ba6e93e440794c8d"
+    },
+    {
+      "path": "flowers/rose_white.png",
+      "category": "flower",
+      "description_ja": "rose / white 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "rose",
+      "color": "white",
+      "sha256": "786b7a21275ecd2d0a44e191a7947960aacdf467647c3ed7ef902d721a881b19"
+    },
+    {
+      "path": "flowers/sunflower_yellow.png",
+      "category": "flower",
+      "description_ja": "sunflower / yellow 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "sunflower",
+      "color": "yellow",
+      "sha256": "faf624d6aaeb8b8960f30f5a3d23ebc9e93ebb74e5f86eb85922fb08013d49d9"
+    },
+    {
+      "path": "flowers/gerbera_white.png",
+      "category": "flower",
+      "description_ja": "gerbera / white 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "gerbera",
+      "color": "white",
+      "sha256": "f00c7db0347eeb1a39c214b1bcd4b1295fa90a426b88bfad7f839bc2309c833f"
+    },
+    {
+      "path": "flowers/gerbera_orange.png",
+      "category": "flower",
+      "description_ja": "gerbera / orange 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "gerbera",
+      "color": "orange",
+      "sha256": "0c37b3ac3f3a2d9b361139d87d387ebd9bfa7caf351670fd483628a139d1dfe6"
+    },
+    {
+      "path": "flowers/cosmos_purple.png",
+      "category": "flower",
+      "description_ja": "cosmos / purple 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "cosmos",
+      "color": "purple",
+      "sha256": "3fb6a5a01ff0e17930d18e00742ff5867d439f59a5d7457d20ece0543f640f9f"
+    },
+    {
+      "path": "flowers/marguerite_white.png",
+      "category": "flower",
+      "description_ja": "marguerite / white 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "marguerite",
+      "color": "white",
+      "sha256": "62ff644b906772668131a035c1d4ea92ba41352f78f968b39fe12e6588191d60"
+    },
+    {
+      "path": "flowers/carnation_pink.png",
+      "category": "flower",
+      "description_ja": "carnation / pink 1本",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "flower_type": "carnation",
+      "color": "pink",
+      "sha256": "623b29ce61c849cbf6d448efdb18e63a5b72d7ed954d8af11f8b556fb0706a42"
+    },
+    {
+      "path": "wrapping/paper_pink.png",
+      "category": "wrapping_paper",
+      "description_ja": "包装紙：pink",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "pink",
+      "sha256": "e0e50be0e13370676abe51a09689499ba3dcdc55444bc5e859b0ae8c0d119fc9"
+    },
+    {
+      "path": "wrapping/paper_lightblue.png",
+      "category": "wrapping_paper",
+      "description_ja": "包装紙：lightblue",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "lightblue",
+      "sha256": "4384ea3283dc9de4f6a4356cde811574307507989f5aae15b5a4f1d6359fef62"
+    },
+    {
+      "path": "wrapping/paper_yellow.png",
+      "category": "wrapping_paper",
+      "description_ja": "包装紙：yellow",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "yellow",
+      "sha256": "e03c925812f9a91805825ddecfdc7071b424709fb7aa13fc167dd308122e86ab"
+    },
+    {
+      "path": "wrapping/paper_purple.png",
+      "category": "wrapping_paper",
+      "description_ja": "包装紙：purple",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "purple",
+      "sha256": "52c5a17cc5cffe6e92acc0e1258717f2cd085186f8f4d96e96a4b11db6c818bf"
+    },
+    {
+      "path": "wrapping/paper_green.png",
+      "category": "wrapping_paper",
+      "description_ja": "包装紙：green",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "green",
+      "sha256": "82adee7443d7025d5b36c48638eafc523eb774584a292b038a18de8f098d4b59"
+    },
+    {
+      "path": "wrapping/ribbon_red.png",
+      "category": "ribbon",
+      "description_ja": "リボン：red",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "red",
+      "sha256": "eb2f45fa09a4a0989d8814d5edb07351f21ac5702b18968fbc785f48eb902255"
+    },
+    {
+      "path": "wrapping/ribbon_pink.png",
+      "category": "ribbon",
+      "description_ja": "リボン：pink",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "pink",
+      "sha256": "eebfd48836579a3dab2fabb9f9d07fb1702f73f265009a66c4a7c6b67d850e1c"
+    },
+    {
+      "path": "wrapping/ribbon_yellow.png",
+      "category": "ribbon",
+      "description_ja": "リボン：yellow",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "yellow",
+      "sha256": "29c5faeb95feaca96663c60c6f6b09c327fd7d3eaff3aaa4baa85a6a9c662d4e"
+    },
+    {
+      "path": "wrapping/ribbon_lightblue.png",
+      "category": "ribbon",
+      "description_ja": "リボン：lightblue",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "lightblue",
+      "sha256": "808bbc69b0710da7458b892104cf6a3c540f4875e154462305dc2c36a555e22a"
+    },
+    {
+      "path": "wrapping/ribbon_purple.png",
+      "category": "ribbon",
+      "description_ja": "リボン：purple",
+      "width": 512,
+      "height": 512,
+      "has_alpha": true,
+      "color": "purple",
+      "sha256": "0e0ed5ab92f2635902397e0632839e963a8e67a7ef4e29b422891bda8626cfdb"
+    },
+    {
+      "path": "bouquet_examples/rose_pink_wrap.png",
+      "category": "bouquet_example",
+      "description_ja": "花束の完成見本（動的な注文判定には使わない）",
+      "width": 512,
+      "height": 640,
+      "has_alpha": true,
+      "sha256": "f813c47260879c4bc911e61f1ad27a186e8c32cd9cd3d3968d4faa7565ba47b9"
+    },
+    {
+      "path": "bouquet_examples/tulips_blue_wrap.png",
+      "category": "bouquet_example",
+      "description_ja": "花束の完成見本（動的な注文判定には使わない）",
+      "width": 512,
+      "height": 640,
+      "has_alpha": true,
+      "sha256": "8f0363e0d47a4595480ab633b8bbd577275b67de12a453ca0de2c9b15c4517d7"
+    },
+    {
+      "path": "bouquet_examples/sunflowers_yellow_wrap.png",
+      "category": "bouquet_example",
+      "description_ja": "花束の完成見本（動的な注文判定には使わない）",
+      "width": 512,
+      "height": 640,
+      "has_alpha": true,
+      "sha256": "5fa8e1440d9b0c14ffc9defed24cd8ecbe2ab595bc961bf868e78d70c8bc8a6a"
+    },
+    {
+      "path": "bouquet_examples/cosmos_purple_wrap.png",
+      "category": "bouquet_example",
+      "description_ja": "花束の完成見本（動的な注文判定には使わない）",
+      "width": 512,
+      "height": 640,
+      "has_alpha": true,
+      "sha256": "21571f5b924425008bdd56dd4407244766b677decfefc57ed06b3ef767d42e60"
+    },
+    {
+      "path": "bouquet_examples/mixed_green_wrap.png",
+      "category": "bouquet_example",
+      "description_ja": "花束の完成見本（動的な注文判定には使わない）",
+      "width": 512,
+      "height": 640,
+      "has_alpha": true,
+      "sha256": "be3bbcb08a89aca360550d86957f4cdc4433a1709ddf2afd6267db488eb75a53"
+    },
+    {
+      "path": "backgrounds/shop_interior.png",
+      "category": "background",
+      "description_ja": "販売画面：高解像度の花屋店内背景",
+      "width": 1672,
+      "height": 941,
+      "has_alpha": true,
+      "sha256": "83805820b1fc65ec60109c071c395f3a5c87378f5f2f9d0494f2b99a5a05b049"
+    },
+    {
+      "path": "backgrounds/title_storefront.png",
+      "category": "background",
+      "description_ja": "背景サンプル（元アトラスから切り出し拡大。高品質店内背景と比べると元解像度が低い）",
+      "width": 1440,
+      "height": 1080,
+      "has_alpha": true,
+      "note": "cropped_and_upscaled_from_atlas",
+      "sha256": "57ba6c6a2b8171cd48590a25d3eb59172560338e8f94962caa1b2928a40eb602"
+    },
+    {
+      "path": "backgrounds/stage_clear.png",
+      "category": "background",
+      "description_ja": "背景サンプル（元アトラスから切り出し拡大。高品質店内背景と比べると元解像度が低い）",
+      "width": 1440,
+      "height": 1080,
+      "has_alpha": true,
+      "note": "cropped_and_upscaled_from_atlas",
+      "sha256": "00acf6d54601c47a693b645fb89d4dc69983654df3559ecca04a08ff72c82947"
+    },
+    {
+      "path": "backgrounds/free_mode.png",
+      "category": "background",
+      "description_ja": "背景サンプル（元アトラスから切り出し拡大。高品質店内背景と比べると元解像度が低い）",
+      "width": 1440,
+      "height": 1080,
+      "has_alpha": true,
+      "note": "cropped_and_upscaled_from_atlas",
+      "sha256": "0b172eadcc7132a693c048b2fe3431f04bf9883d1e77ec07657707622c4568ca"
+    },
+    {
+      "path": "ui/play.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 384,
+      "has_alpha": true,
+      "sha256": "c682fdcb6afc0a93b395f491884b6bb6fdf46ab44001813c6390c9aa9c75b4ee"
+    },
+    {
+      "path": "ui/home.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 384,
+      "has_alpha": true,
+      "sha256": "485afda65951d6561ee83392cb070850b6c1d80d454b03639b9a7a2019cc0bc0"
+    },
+    {
+      "path": "ui/settings.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 384,
+      "has_alpha": true,
+      "sha256": "ebd8ed103fccdb6af659e9f545d57b8ce037509eef9253c2ba4367be668519ee"
+    },
+    {
+      "path": "ui/sound.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 384,
+      "has_alpha": true,
+      "sha256": "cc6b3a58aaa1c8bcf5a01d270154428eb0b64cdb578ae4fde9d24b297a7f977e"
+    },
+    {
+      "path": "ui/undo.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 384,
+      "has_alpha": true,
+      "sha256": "8935b08c1ad144b67611f0c6a7049b351d5bff874cacd332973f2bdcc1dc5503"
+    },
+    {
+      "path": "ui/flower_frame.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 192,
+      "has_alpha": true,
+      "sha256": "b1a5439e6c4d01ff95c50ec95af373670f913c9b774806473d22f89715823bd6"
+    },
+    {
+      "path": "ui/blank_button_pink.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 192,
+      "has_alpha": true,
+      "sha256": "c0e0488f68d8ac2ba77f793331a1bab5f14000e9bafd3589fb48da63b76950ec"
+    },
+    {
+      "path": "ui/blank_button_blue.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 192,
+      "has_alpha": true,
+      "sha256": "d1672cb46299be3e8576d6add07912ed2a2993705ed096c76a6e4ed6ba2d026e"
+    },
+    {
+      "path": "ui/blank_button_yellow.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 192,
+      "has_alpha": true,
+      "sha256": "930f8c8e6c1b0cb641a003c3dd06c8b8184f2ce1df29521e7b10326b882477c7"
+    },
+    {
+      "path": "ui/blank_button_green.png",
+      "category": "ui",
+      "description_ja": "テキストなしUI画像。日本語のラベルはHTML/CSSで重ねること",
+      "width": 384,
+      "height": 192,
+      "has_alpha": true,
+      "sha256": "d0f9e05a40de05800030f5c66af4df6d68739c2af0ccde7fa737f133d4483870"
+    },
+    {
+      "path": "effects/sparkle.png",
+      "category": "effect",
+      "description_ja": "装飾エフェクト sparkle",
+      "width": 512,
+      "height": 256,
+      "has_alpha": true,
+      "sha256": "a40be63ba27059c43d7704f10534e6a122e9af5f3e92328d68f188d3c2e7e66f"
+    },
+    {
+      "path": "effects/heart.png",
+      "category": "effect",
+      "description_ja": "装飾エフェクト heart",
+      "width": 512,
+      "height": 256,
+      "has_alpha": true,
+      "sha256": "ca958032a54f2e0c34479827bd57dc139cd8d8c2e75387c70ce5113206043424"
+    },
+    {
+      "path": "effects/music_notes.png",
+      "category": "effect",
+      "description_ja": "装飾エフェクト music_notes",
+      "width": 512,
+      "height": 256,
+      "has_alpha": true,
+      "sha256": "bcd526a0eced983c22142df3b40ac53ed964032d11d64177a79770df81f7f186"
+    },
+    {
+      "path": "effects/petals.png",
+      "category": "effect",
+      "description_ja": "装飾エフェクト petals",
+      "width": 512,
+      "height": 256,
+      "has_alpha": true,
+      "sha256": "0f5106ec7565b913460ad467803d916d1846fc7cfc31952bb5c50e629ea10495"
+    },
+    {
+      "path": "backgrounds/collection_soft.png",
+      "category": "background",
+      "description_ja": "コレクション画面の淡色版。花束カードを上に重ねる",
+      "width": 1672,
+      "height": 941,
+      "has_alpha": true,
+      "sha256": "de50c0567907590b27266d3a400836bfec487ad89b9d8ac23a4e6d0420d5064e"
+    },
+    {
+      "path": "backgrounds/final_clear.png",
+      "category": "background",
+      "description_ja": "5ステージを全てクリアしたときのお祝い背景（文字なし）",
+      "width": 1440,
+      "height": 1080,
+      "has_alpha": true,
+      "sha256": "1efacaeaa797d26d10aef09849346ba186923a0c79f73d2c6759bfbcbb193186"
+    }
+  ],
+  "stage_inventory_confirmed": {
+    "1": {
+      "stock": {
+        "tulip_red": 4,
+        "rose_pink": 3,
+        "sunflower_yellow": 3
+      }
+    },
+    "2": {
+      "stock": {
+        "tulip_red": 3,
+        "rose_pink": 3,
+        "sunflower_yellow": 3,
+        "gerbera_white": 3
+      }
+    },
+    "3": {
+      "stock": {
+        "tulip_red": 3,
+        "tulip_yellow": 2,
+        "rose_pink": 3,
+        "sunflower_yellow": 2,
+        "gerbera_white": 2,
+        "cosmos_purple": 3
+      }
+    },
+    "4": {
+      "stock": {
+        "tulip_red": 3,
+        "rose_pink": 3,
+        "rose_white": 2,
+        "sunflower_yellow": 3,
+        "gerbera_orange": 3,
+        "cosmos_purple": 2,
+        "marguerite_white": 2
+      }
+    },
+    "5": {
+      "stock": {
+        "tulip_red": 3,
+        "rose_pink": 3,
+        "rose_white": 2,
+        "sunflower_yellow": 2,
+        "gerbera_orange": 3,
+        "cosmos_purple": 2,
+        "marguerite_white": 2,
+        "carnation_pink": 3
+      }
+    }
+  },
+  "flower_price_yen_per_stem": {
+    "tulip": 100,
+    "rose": 300,
+    "sunflower": 200,
+    "gerbera": 200,
+    "cosmos": 100,
+    "marguerite": 100,
+    "carnation": 200
+  },
+  "wrapping_paper_colors": [
+    "pink",
+    "lightblue",
+    "yellow",
+    "purple",
+    "green"
+  ],
+  "ribbon_colors": [
+    "red",
+    "pink",
+    "yellow",
+    "lightblue",
+    "purple"
+  ],
+  "notes": [
+    "全画像は画像生成素材の切り出しによるPNG。キャラクター表情差分には一部周辺の描画が残る可能性あり",
+    "花束を動的に組み合わせるときは flowers と wrapping を別レイヤーで表示する",
+    "白ガーベラと紫コスモスは元画像の色を変換した派生画像",
+    "販売画面背景は高解像度。タイトル・クリア・自由制作の背景はアトラス内の小さな素材を拡大している"
+  ],
+  "flower_name_ja": {
+    "tulip": "チューリップ",
+    "rose": "バラ",
+    "sunflower": "ひまわり",
+    "gerbera": "ガーベラ",
+    "cosmos": "コスモス",
+    "marguerite": "マーガレット",
+    "carnation": "カーネーション"
+  },
+  "color_name_ja": {
+    "red": "あか",
+    "pink": "ピンク",
+    "yellow": "きいろ",
+    "white": "しろ",
+    "orange": "オレンジ",
+    "purple": "むらさき",
+    "green": "みどり",
+    "lightblue": "みずいろ"
+  },
+  "ui_image_root": "public/assets/ohanayasan/",
+  "quality_disclosure": {
+    "source": "Image-generated originals plus cropped and layered raster exports",
+    "high_resolution_master_images": [
+      "sources/player_full_master.png",
+      "sources/shop_background_master.png"
+    ],
+    "cropped_upscaled_pngs": "Most flower, customer, ribbon and button assets were cropped from a single 1536x1024 sheet and upscaled. Resolution is not equivalent to independently generated 512px art.",
+    "derived_color_assets": [
+      "flowers/gerbera_white.png",
+      "flowers/cosmos_purple.png"
+    ],
+    "not_included": [
+      "audio files (BGM and effects)",
+      "source code for the game itself"
+    ],
+    "warning": "Do not assume sprite boundaries and color are perfectly matched before on-device visual QA."
+  }
+}
